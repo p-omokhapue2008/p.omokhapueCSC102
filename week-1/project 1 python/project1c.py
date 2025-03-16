@@ -1,0 +1,5 @@
+PMT = int(input("ENTER REGULAR PAYMENT AMOUNT:"))
+R =  int(input("ENTER ANNUAL INTEREST RATE:"))
+n = int(input("ENTER NUMBER OF TIMES INPUT IS COMPOUNDED PER YEAR:"))
+t = int(input("ENTER NUMBER OF YEARS:"))
+A = (input(PMT* 1 + R/n**n*t - 1/ R/n)) 

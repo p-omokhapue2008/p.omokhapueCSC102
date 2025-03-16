@@ -1,0 +1,5 @@
+P = int(input("Enter principal:"))
+R = int(input("Enter rate: "))
+n = int(input("Enter number of times interest is compunded in a year:"))
+t = int(input("Enter time in years:"))
+A = input(P*1+R/n **n*t)
